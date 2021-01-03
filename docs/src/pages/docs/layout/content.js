@@ -85,9 +85,9 @@ const SECTIONS = [
         </div>
       </React.Fragment>
     ),
-    markup: `<div className="content">
-  <div className="content__main">Main Content</div>
-  <div className="content__aside">Aside Content</div>
+    markup: `<div class="content">
+  <div class="content__main">Main Content</div>
+  <div class="content__aside">Aside Content</div>
 </div>
 `,
   },
@@ -123,9 +123,9 @@ const SECTIONS = [
         </div>
       </React.Fragment>
     ),
-    markup: `<div className="content">
-  <div className="content__main">Main Content</div>
-  <div className="content__aside">Aside Content</div>
+    markup: `<div class="content">
+  <div class="content__main">Main Content</div>
+  <div class="content__aside">Aside Content</div>
 </div>
 `,
   },
@@ -175,9 +175,9 @@ const SECTIONS = [
         </div>
       </React.Fragment>
     ),
-    markup: `<div className="content">
-  <div className="content__main">Main Content</div>
-  <div className="content__aside">Aside Content</div>
+    markup: `<div class="content">
+  <div class="content__main">Main Content</div>
+  <div class="content__aside">Aside Content</div>
 </div>
 `,
   },

@@ -60,16 +60,16 @@ const SECTIONS = [
         </header>
       </React.Fragment>
     ),
-    markup: `<header className="navbar navbar--content-centered">
-  <div className="navbar__app">
+    markup: `<header class="navbar navbar--content-centered">
+  <div class="navbar__app">
     <i class="material-icons navbar__logo">extension</i>
-    <h2 className="navbar__app__name">
+    <h2 class="navbar__app__name">
       <a>AppName</a>
     </h2>
   </div>
-  <section className="navbar__links">
-    <a className="navbar__link link">About</a>
-    <a className="navbar__link link">Docs</a>
+  <section class="navbar__links">
+    <a class="navbar__link link">About</a>
+    <a class="navbar__link link">Docs</a>
   </section>
 </header>
 `,

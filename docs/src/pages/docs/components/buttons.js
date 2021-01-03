@@ -54,9 +54,9 @@ const SECTIONS = [
         <button className="btn btn--clear-tertiary">Action</button>
       </React.Fragment>
     ),
-    markup: `<button className="btn btn--clear-primary">Action</button>
-<button className="btn btn--clear-secondary">Action</button>
-<button className="btn btn--clear-tertiary">Action</button>`,
+    markup: `<button class="btn btn--clear-primary">Action</button>
+<button class="btn btn--clear-secondary">Action</button>
+<button class="btn btn--clear-tertiary">Action</button>`,
   },
   {
     id: "iconButtons",
@@ -82,23 +82,23 @@ const SECTIONS = [
         </button>
       </React.Fragment>
     ),
-    markup: `<button className="btn">
+    markup: `<button class="btn">
   <i class="material-icons">favorite</i>
 </button>
 
-<button className="btn btn--solid-primary">
+<button class="btn btn--solid-primary">
   <i class="material-icons">favorite</i>
 </button>
 
-<button className="btn btn--clear-tertiary">
+<button class="btn btn--clear-tertiary">
   <i class="material-icons">favorite</i>
 </button>
 
-<button className="btn btn--solid-primary btn--round">
+<button class="btn btn--solid-primary btn--round">
   <i class="material-icons">favorite</i>
 </button>
 
-<button className="btn btn--solid-primary">
+<button class="btn btn--solid-primary">
   <i class="material-icons">favorite</i> Like
 </button>`,
   },
@@ -113,8 +113,8 @@ const SECTIONS = [
         <button className="btn btn--solid-tertiary btn--rounded">Action</button>
       </React.Fragment>
     ),
-    markup: `<button className="btn btn--solid-primary btn--rounded">Action</button>
-<button className="btn btn--solid-tertiary btn--rounded">Action</button>`,
+    markup: `<button class="btn btn--solid-primary btn--rounded">Action</button>
+<button class="btn btn--solid-tertiary btn--rounded">Action</button>`,
   },
   {
     id: "largeButton",
@@ -131,10 +131,10 @@ const SECTIONS = [
         </button>
       </React.Fragment>
     ),
-    markup: `<button className="btn btn--large">Action</button>
-<button className="btn btn--solid-primary btn--large">Action</button>
-<button className="btn btn--clear-tertiary btn--large">Action</button>
-<button className="btn btn--solid-primary btn--circle btn--large">
+    markup: `<button class="btn btn--large">Action</button>
+<button class="btn btn--solid-primary btn--large">Action</button>
+<button class="btn btn--clear-tertiary btn--large">Action</button>
+<button class="btn btn--solid-primary btn--circle btn--large">
   <i class="material-icons">favorite</i>
 </button>
 `,
@@ -162,16 +162,16 @@ const SECTIONS = [
         </button>
       </React.Fragment>
     ),
-    markup: `<button className="btn btn--disabled">Action</button>
+    markup: `<button class="btn btn--disabled">Action</button>
 <button class="btn btn--solid-primary btn--disabled">Action</button>
-<button className="btn btn--clear-tertiary btn--disabled">Action</button>
-<button className="btn btn--solid-primary btn--round btn--disabled">
+<button class="btn btn--clear-tertiary btn--disabled">Action</button>
+<button class="btn btn--solid-primary btn--round btn--disabled">
   <i class="material-icons">favorite</i>
 </button>
-<button className="btn btn--solid-primary btn--rounded btn--disabled">
+<button class="btn btn--solid-primary btn--rounded btn--disabled">
   Action
 </button>
-<button className="btn btn--clear-tertiary btn--large btn--disabled">
+<button class="btn btn--clear-tertiary btn--large btn--disabled">
   Action
 </button>`,
   },

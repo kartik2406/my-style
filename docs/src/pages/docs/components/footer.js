@@ -18,7 +18,7 @@ const SECTIONS = [
         </footer>
       </React.Fragment>
     ),
-    markup: `<footer className="footer">
+    markup: `<footer class="footer">
   <span> Footer content </span>
 </footer>
 `,
@@ -28,7 +28,7 @@ const SECTIONS = [
     title: "Fixed footer",
     description:
       "You can make make the footer stick to the bottom of the page too. Use the class 'footer--fixed'.",
-    markup: `<footer className="footer footer--fixed">
+    markup: `<footer class="footer footer--fixed">
   <span> Footer content </span>
 </footer>
 `,
