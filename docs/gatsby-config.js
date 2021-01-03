@@ -10,6 +10,7 @@ module.exports = {
     title: `My Style`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: "gatsby-plugin-google-fonts",
       options: {

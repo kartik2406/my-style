@@ -2,6 +2,7 @@ import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import Prism from "prismjs"
 import ThemeToggle from "./themeToggle"
+import { Helmet } from "react-helmet"
 
 export default function Layout({ children }) {
   // TODO: know how to read OS preference of theme, add it here
@@ -23,6 +24,9 @@ export default function Layout({ children }) {
   }
   return (
     <React.Fragment>
+      <Helmet>
+        <title>My Styles</title>
+      </Helmet>
       <header className="navbar">
         <div className="navbar__app">
           <img className="navbar__logo" src="/logo.png" />

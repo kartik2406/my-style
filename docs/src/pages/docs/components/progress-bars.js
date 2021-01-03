@@ -14,8 +14,8 @@ const SECTIONS = [
       "Pass the % status of the task being performed as width, as the task progress the progress bar will keep filling.",
     displayComponents: (
       <React.Fragment>
-        <div class="progress-bar">
-          <div class="progress-bar__status" style={{ width: "80%" }}></div>
+        <div className="progress-bar">
+          <div className="progress-bar__status" style={{ width: "80%" }}></div>
         </div>
       </React.Fragment>
     ),
@@ -30,8 +30,8 @@ const SECTIONS = [
       "You can also display a progress bar which keeps running infinitely. Once the task is completed you can simply remove or delete the component markup.",
     displayComponents: (
       <React.Fragment>
-        <div class="progress-bar progress-bar--infinite">
-          <div class="progress-bar__status"></div>
+        <div className="progress-bar progress-bar--infinite">
+          <div className="progress-bar__status"></div>
         </div>
       </React.Fragment>
     ),
@@ -46,9 +46,9 @@ const SECTIONS = [
       "The pulse dot keeps running and you can display it when you are doing some task. By default its shown in the sites primary theme colour, you can also have pulse dots for your sites secondary and tertiary theme colour.",
     displayComponents: (
       <React.Fragment>
-        <div class="pulse-dot"></div>
-        <div class="pulse-dot pulse-dot--secondary"></div>
-        <div class="pulse-dot pulse-dot--tertiary"></div>
+        <div className="pulse-dot"></div>
+        <div className="pulse-dot pulse-dot--secondary"></div>
+        <div className="pulse-dot pulse-dot--tertiary"></div>
       </React.Fragment>
     ),
     markup: ` <div class="pulse-dot"></div>`,
@@ -61,7 +61,7 @@ const SECTIONS = [
     displayComponents: (
       <React.Fragment>
         <section className="centered pulse-centered">
-          <div class="pulse-dot pulse-dot--medium"></div>
+          <div className="pulse-dot pulse-dot--medium"></div>
         </section>
       </React.Fragment>
     ),
@@ -72,7 +72,7 @@ const SECTIONS = [
     displayComponents: (
       <React.Fragment>
         <section className="centered pulse-centered">
-          <div class="pulse-dot pulse-dot--large"></div>
+          <div className="pulse-dot pulse-dot--large"></div>
         </section>
       </React.Fragment>
     ),
@@ -86,7 +86,7 @@ const SECTIONS = [
       <React.Fragment>
         <section className="centered pulse-centered">
           <div
-            class="pulse-dot"
+            className="pulse-dot"
             style={{ width: "4rem", height: "4rem", background: "aliceblue" }}
           ></div>
         </section>
@@ -105,9 +105,9 @@ const SECTIONS = [
       "You can also use circular loader, the default size is small, and the colour is the primary colour. Both of which are customizable.",
     displayComponents: (
       <React.Fragment>
-        <div class="loader"></div>
-        <div class="loader loader--secondary"></div>
-        <div class="loader loader--tertiary"></div>
+        <div className="loader"></div>
+        <div className="loader loader--secondary"></div>
+        <div className="loader loader--tertiary"></div>
       </React.Fragment>
     ),
     markup: `<div class="loader"></div>
@@ -119,9 +119,9 @@ const SECTIONS = [
     description: "Medium sized loaders",
     displayComponents: (
       <React.Fragment>
-        <div class="loader loader--medium"></div>
-        <div class="loader loader--secondary loader--medium "></div>
-        <div class="loader loader--tertiary loader--medium "></div>
+        <div className="loader loader--medium"></div>
+        <div className="loader loader--secondary loader--medium "></div>
+        <div className="loader loader--tertiary loader--medium "></div>
       </React.Fragment>
     ),
     markup: `<div class="loader loader--medium"></div>
@@ -133,9 +133,9 @@ const SECTIONS = [
     description: "Large sized loaders",
     displayComponents: (
       <React.Fragment>
-        <div class="loader loader--large"></div>
-        <div class="loader loader--secondary loader--large "></div>
-        <div class="loader loader--tertiary loader--large "></div>
+        <div className="loader loader--large"></div>
+        <div className="loader loader--secondary loader--large "></div>
+        <div className="loader loader--tertiary loader--large "></div>
       </React.Fragment>
     ),
     markup: `<div class="loader loader--large"></div>
@@ -148,7 +148,7 @@ const SECTIONS = [
     displayComponents: (
       <React.Fragment>
         <div
-          class="loader"
+          className="loader"
           style={{
             width: "2rem",
             height: "2rem",

@@ -12,11 +12,11 @@ const SECTIONS = [
     description: "Display items vertically with basic styling.",
     displayComponents: (
       <React.Fragment>
-        <ul class="list">
-          <li class="list__item">Book1</li>
-          <li class="list__item">Book2</li>
-          <li class="list__item">Book3</li>
-          <li class="list__item">Book4</li>
+        <ul className="list">
+          <li className="list__item">Book1</li>
+          <li className="list__item">Book2</li>
+          <li className="list__item">Book3</li>
+          <li className="list__item">Book4</li>
         </ul>
       </React.Fragment>
     ),
@@ -33,12 +33,12 @@ const SECTIONS = [
     description: "You can also add a header to your list using the following.",
     displayComponents: (
       <React.Fragment>
-        <ul class="list">
-          <li class="list__header">Favorite books</li>
-          <li class="list__item">Book1</li>
-          <li class="list__item">Book2</li>
-          <li class="list__item">Book3</li>
-          <li class="list__item">Book4</li>
+        <ul className="list">
+          <li className="list__header">Favorite books</li>
+          <li className="list__item">Book1</li>
+          <li className="list__item">Book2</li>
+          <li className="list__item">Book3</li>
+          <li className="list__item">Book4</li>
         </ul>
       </React.Fragment>
     ),
@@ -57,12 +57,12 @@ const SECTIONS = [
       "List with a solid background, the background defaults to the themes background-variant variable.",
     displayComponents: (
       <React.Fragment>
-        <ul class="list list--solid">
-          <li class="list__header">Favorite books</li>
-          <li class="list__item">Book1</li>
-          <li class="list__item">Book2</li>
-          <li class="list__item">Book3</li>
-          <li class="list__item">Book4</li>
+        <ul className="list list--solid">
+          <li className="list__header">Favorite books</li>
+          <li className="list__item">Book1</li>
+          <li className="list__item">Book2</li>
+          <li className="list__item">Book3</li>
+          <li className="list__item">Book4</li>
         </ul>
       </React.Fragment>
     ),
@@ -81,12 +81,12 @@ const SECTIONS = [
       "Instead of giving the entire list a background, you could give background to each list item.",
     displayComponents: (
       <React.Fragment>
-        <ul class="list">
-          <li class="list__header">Favorite books</li>
-          <li class="list__item list__item--solid">Book1</li>
-          <li class="list__item list__item--solid">Book2</li>
-          <li class="list__item list__item--solid">Book3</li>
-          <li class="list__item list__item--solid">Book4</li>
+        <ul className="list">
+          <li className="list__header">Favorite books</li>
+          <li className="list__item list__item--solid">Book1</li>
+          <li className="list__item list__item--solid">Book2</li>
+          <li className="list__item list__item--solid">Book3</li>
+          <li className="list__item list__item--solid">Book4</li>
         </ul>
       </React.Fragment>
     ),
@@ -105,19 +105,19 @@ const SECTIONS = [
       "When you have a list of links, you can use the following class so that all the links don't stand out much. Only links with active or hover style would stand out.",
     displayComponents: (
       <React.Fragment>
-        <ul class="list list--links">
-          <li class="list__header">Favorite books</li>
-          <li class="list__item">
-            <a class="link">Book1 </a>
+        <ul className="list list--links">
+          <li className="list__header">Favorite books</li>
+          <li className="list__item">
+            <a className="link">Book1 </a>
           </li>
-          <li class="list__item">
-            <a class="link">Book2 </a>
+          <li className="list__item">
+            <a className="link">Book2 </a>
           </li>
-          <li class="list__item">
-            <a class="link">Book3 </a>
+          <li className="list__item">
+            <a className="link">Book3 </a>
           </li>
-          <li class="list__item">
-            <a class="link">Book4 </a>
+          <li className="list__item">
+            <a className="link">Book4 </a>
           </li>
         </ul>
       </React.Fragment>

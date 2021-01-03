@@ -14,7 +14,7 @@ const SECTIONS = [
       <React.Fragment>
         <header className="navbar">
           <div className="navbar__app">
-            <i class="material-icons navbar__logo">extension</i>
+            <i className="material-icons navbar__logo">extension</i>
             <h2 className="navbar__app__name">
               <a>AppName</a>
             </h2>
@@ -48,7 +48,7 @@ const SECTIONS = [
       <React.Fragment>
         <header className="navbar navbar--content-centered">
           <div className="navbar__app">
-            <i class="material-icons navbar__logo">extension</i>
+            <i className="material-icons navbar__logo">extension</i>
             <h2 className="navbar__app__name">
               <a>AppName</a>
             </h2>
@@ -83,7 +83,7 @@ const SECTIONS = [
       <React.Fragment>
         <header className="navbar navbar-r-t-l">
           <div className="navbar__app">
-            <i class="material-icons navbar__logo">extension</i>
+            <i className="material-icons navbar__logo">extension</i>
             <h2 className="navbar__app__name">
               <a>AppName</a>
             </h2>

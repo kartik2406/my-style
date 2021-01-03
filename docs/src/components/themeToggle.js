@@ -23,7 +23,9 @@ export default function ThemeToggle() {
   return (
     <React.Fragment>
       <a className="link link--tertiary" onClick={toggleDarkMode}>
-        <i class="material-icons">{lightMode ? "light_mode" : "dark_mode"}</i>
+        <i className="material-icons">
+          {lightMode ? "light_mode" : "dark_mode"}
+        </i>
       </a>
     </React.Fragment>
   )

@@ -52,7 +52,7 @@ export default function Setup() {
           </pre>
           Visit &nbsp;
           <a
-            class="link googlefonts-link"
+            className="link googlefonts-link"
             href="https://fonts.google.com/specimen/Nunito?sidebar.open=true&selection.family=Nunito"
           >
             Google fonts
@@ -69,7 +69,7 @@ export default function Setup() {
           </pre>
           Visit &nbsp;
           <a
-            class="link googleicons-link {"
+            className="link googleicons-link {"
             href="https://google.github.io/material-design-icons/"
           >
             Google material icons

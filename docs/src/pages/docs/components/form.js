@@ -11,14 +11,14 @@ const SECTIONS = [
       "Style inputs and labels to the site theme. Label, input gets highlighted on focus.",
     displayComponents: (
       <React.Fragment>
-        <form action="" class="form">
-          <div class="form__input">
+        <form action="" className="form">
+          <div className="form__input">
             <input type="text" id="name" placeholder="Your name" />
-            <label for="name">Name</label>
+            <label htmlFor="name">Name</label>
           </div>
-          <div class="form__input">
+          <div className="form__input">
             <input type="text" id="email" placeholder="Your email" />
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
           </div>
         </form>
       </React.Fragment>
