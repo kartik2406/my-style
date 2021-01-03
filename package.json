@@ -6,15 +6,18 @@
   "author": "Kartik Malik",
   "license": "MIT",
   "scripts": {
-    "build": "",
-    "build-prefix": "postcss --use autoprefixer --map --output ./css/src/index.css ./css/index.css"
+    "build": "parcel build src/css/index.css --no-source-maps"
   },
   "devDependencies": {
-    "autoprefixer": "^10.1.0",
-    "postcss-cli": "^8.3.1"
+    "cssnano": "^4.1.10",
+    "parcel": "^1.12.4"
   },
   "keywords": [
     "css",
     "css-framework"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/cli.git"
+  }
 }

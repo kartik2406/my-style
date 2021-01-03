@@ -25,7 +25,7 @@ export default function Layout({ children }) {
   return (
     <React.Fragment>
       <Helmet>
-        <title>My Styles</title>
+        <title>My Style</title>
       </Helmet>
       <header className="navbar">
         <div className="navbar__app">
