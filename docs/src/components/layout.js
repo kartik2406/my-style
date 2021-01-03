@@ -18,7 +18,7 @@ export default function Layout({ children }) {
     setTheme()
   }, [])
   const isPartiallyActive = props => {
-    return props.location.href.includes("/docs")
+    return props.location.href && props.location.href.includes("/docs")
       ? { className: "navbar__link link  link--active" }
       : { className: "navbar__link link" }
   }
