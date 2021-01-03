@@ -4,3 +4,4 @@
   # If not set, defaults to the root directory.
   base = "docs/"
   publish = "public/"
+  command = "npm run build"
