@@ -23,11 +23,19 @@ export default function Setup() {
         <section className="doc-section">
           <h5> Installation </h5>
           <p>
-            To install my styles, you can either download the source files from
-            the github repo or install the npm package.
+            To install my styles, you can either&nbsp;
+            <a
+              className="link link--tertiary link--underline"
+              href="https://github.com/kartik2406/my-style"
+              rel="noreferrer"
+              target="_blank"
+            >
+              download the source files
+            </a>
+            &nbsp; from the github repo or install the npm package.
           </p>
           <pre>
-            <code className="language-javascript">npm i my-styles</code>
+            <code className="language-javascript">npm i my-style-css</code>
           </pre>
           <p>
             After that you can simply import the my styles CSS file in your html
@@ -54,6 +62,8 @@ export default function Setup() {
           <a
             className="link googlefonts-link"
             href="https://fonts.google.com/specimen/Nunito?sidebar.open=true&selection.family=Nunito"
+            rel="noreferrer"
+            target="_blank"
           >
             Google fonts
           </a>
@@ -71,6 +81,8 @@ export default function Setup() {
           <a
             className="link googleicons-link {"
             href="https://google.github.io/material-design-icons/"
+            rel="noreferrer"
+            target="_blank"
           >
             Google material icons
           </a>
@@ -78,7 +90,12 @@ export default function Setup() {
           <h5> Using Prism to style code blocks </h5>
           <p>
             Download the JS and CSS bundle from &nbsp;
-            <a className="link prism-link" href="https://prismjs.com/">
+            <a
+              className="link prism-link"
+              href="https://prismjs.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
               Prism
             </a>
             &nbsp; site and import them in your project.

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import DocPage from "../../../components/docPage"
 
 export default function Introduction() {
@@ -29,15 +29,27 @@ export default function Introduction() {
             <a
               className="link materialize-link"
               href="https://materializecss.com"
+              rel="noreferrer"
+              target="_blank"
             >
               Materialize
             </a>
             ,&nbsp;
-            <a className="link tailwind-link" href="https://tailwindcss.com/">
+            <a
+              className="link tailwind-link"
+              href="https://tailwindcss.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
               Tailwind CSS
             </a>
             , &nbsp;
-            <a className="link bootstrap-link" href="https://getbootstrap.com/">
+            <a
+              className="link bootstrap-link"
+              href="https://getbootstrap.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
               Bootstrap
             </a>
             . Tailwind CSS and Materialize being my most favourite. If you look

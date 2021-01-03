@@ -1,5 +1,5 @@
 {
-  "name": "my-style",
+  "name": "my-style-css",
   "version": "1.0.0",
   "description": "Give your websties your own style using this framework.",
   "main": "src/css/index.css",
@@ -16,8 +16,9 @@
     "css",
     "css-framework"
   ],
+  "homepage": "https://github.com/kartik2406/my-style",
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/cli.git"
+    "url": "https://github.com/kartik2406/my-style"
   }
 }

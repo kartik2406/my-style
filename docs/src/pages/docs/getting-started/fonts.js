@@ -20,6 +20,8 @@ export default function Concepts() {
             <a
               className="link googlefonts-link"
               href="https://fonts.google.com/specimen/Nunito"
+              rel="noreferrer"
+              target="_blank"
             >
               Google fonts
             </a>

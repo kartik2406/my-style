@@ -6,7 +6,7 @@ export default function ThemeToggle() {
   useEffect(() => {
     let lightMode = localStorage.getItem(LOCAL_STORAGE_KEY)
     if (lightMode) setLightMode(true)
-  })
+  }, [])
   const toggleDarkMode = () => {
     let currentMode = !lightMode
     let body = document.getElementsByTagName("body")[0]

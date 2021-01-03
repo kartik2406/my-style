@@ -60,6 +60,8 @@ export default function Layout({ children }) {
           <a
             className="link  link--tertiary link--underline"
             href="https://github.com/kartik2406"
+            rel="noreferrer"
+            target="_blank"
           >
             Kartik Malik{" "}
           </a>

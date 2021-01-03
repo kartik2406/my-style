@@ -36,6 +36,8 @@ export default function Concepts() {
             <a
               className="link prism-link"
               href="https://prismjs.com/download.html#themes=prism-dark&languages=markup+css+clike+javascript"
+              rel="noreferrer"
+              target="_blank"
             >
               Prism
             </a>
