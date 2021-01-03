@@ -1,0 +1,46 @@
+/* Form syling */
+.form .form__input {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.form .form__input label {
+  margin: 5px;
+  color: var(--text-color-primary);
+}
+
+.form .form__input input {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  background: var(--background-variant);
+  color: var(--text-color-primary);
+  border-radius: 5px;
+}
+.form .form__input input:focus {
+  transition: 0.2s;
+  box-shadow: 0px 1px 1px var(--primary);
+}
+.form .form__input input:focus + label {
+  color: var(--primary);
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--text-color-secondary);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--text-color-secondary);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--text-color-secondary);
+}
+
+/* Make the label and field appear next to each other, TODO: revist once we have grid system in place */
+.form .form__input.form__input--inline {
+  align-items: center;
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,64 @@
+/* Nav bar styles */
+.navbar {
+  background: var(--background-variant);
+  padding: 1%;
+  display: flex;
+  height: var(--header-height);
+  align-items: center;
+  gap: 8%;
+  justify-content: space-between;
+  /* box-shadow: 2px 2px 6px var(--background-variant); */
+}
+.navbar .navbar__app {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.navbar .navbar__app .navbar__app__name {
+  font-size: 2rem;
+  color: var(--text-color-primary);
+}
+
+.navbar .navbar__app img.navbar__logo {
+  height: calc(var(--header-height) - 5px);
+}
+.navbar .navbar__links {
+  display: flex;
+}
+
+.navbar .navbar__links .navbar__link {
+  /* color: var(--text-color-primary); */
+  font-size: 1.3rem;
+  padding-left: 20px;
+}
+
+/* .navbar .navbar__links .navbar__link:hover {
+  transition: 0.2s;
+  color: var(--primary);
+  transform: scale(1.1);
+}
+.navbar .navbar__links .navbar__link.navbar__link--active {
+  color: var(--primary);
+  transform: none;
+} */
+/* Right to Left navbar */
+.navbar.navbar-r-t-l {
+  flex-direction: row-reverse;
+}
+
+/* Navbar with padding on left, right, navbar content is centered */
+.navbar.navbar--content-centered {
+  justify-content: space-around;
+}
+
+/* Navbar that does not move on scroll */
+.navbar.navbar--fixed {
+  position: fixed;
+  top: 0;
+  width: 98%; /* Make sure that navbar fits screen width*/
+}
+
+.navbar.navbar--fixed + * {
+  margin-top: calc(var(--header-height) + 65px);
+}

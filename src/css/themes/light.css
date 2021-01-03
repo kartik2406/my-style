@@ -1,0 +1,23 @@
+.light-theme {
+  --background: #d8eefe;
+  --background-variant: #fffffe;
+  --text-color-primary: #094067;
+  --text-color-secondary: #5f6c7b;
+  --primary: #3da9fc;
+  --secondary: #90b4ce;
+  --tertiary: #ef4565;
+}
+
+.light-theme .btn--solid-primary,
+.light-theme .btn--solid-secondary,
+.light-theme .btn--solid-tertiary,
+.light-theme .btn--clear-primary:hover,
+.light-theme .btn--clear-secondary:hover,
+.light-theme .btn--clear-tertiary:hover {
+  color: #232946;
+}
+
+.light-theme .navbar,
+.light-theme .footer {
+  background: var(--background);
+}

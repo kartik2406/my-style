@@ -1,0 +1,208 @@
+@import "./prism.css";
+
+.sub-text {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.landing-page-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.display-components {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* .doc-page > * {
+  margin-top: 20px;
+} */
+/* 
+.doc-page section > * {
+  margin-top: 10px;
+} */
+/* .doc-content .intro h2 {
+  margin-bottom: 2rem;
+} */
+
+.doc-content .doc-section {
+  margin-top: 4rem;
+}
+
+/* .doc-content h5 {
+  margin-bottom: 1rem;
+} */
+.doc-content .doc-section > * {
+  margin-top: 20px;
+}
+
+.sidebar-navigation,
+.page-navigation {
+  position: fixed;
+}
+
+.wrapper {
+  padding: 0 2% 0 2%;
+}
+
+hr {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+
+.display-components .navbar,
+.display-components .progress-bar,
+.display-components .content,
+.display-components .footer {
+  width: 100%;
+}
+.display-components .footer {
+  margin-top: 10px;
+}
+.display-components .container {
+  margin-top: 20px;
+}
+
+.footer {
+  flex-direction: column;
+  gap: 5px;
+}
+
+#gatsby-focus-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+  flex: 1;
+}
+
+/* https://www.happyhues.co/palettes/12 */
+
+/* :root {
+  --background: #232946;
+  --background-variant: #393e59;
+  --text-color-primary: #fffffe;
+  --text-color-secondary: #b8c1ec;
+  --primary: #b8c1ec;
+  --secondary: #fffffe;
+  --tertiary: #eebbc3;
+}
+
+.btn--solid-primary,
+.btn--solid-secondary,
+.btn--solid-tertiary,
+.btn--clear-primary:hover,
+.btn--clear-secondary:hover,
+.btn--clear-tertiary:hover {
+  color: #232946;
+}
+
+.navbar,
+.footer {
+  background: var(--background);
+} */
+
+/* https://www.happyhues.co/palettes/3 */
+
+/* :root {
+  --background: #d8eefe;
+  --background-variant: #fffffe;
+  --text-color-primary: #094067;
+  --text-color-secondary: #5f6c7b;
+  --primary: #3da9fc;
+  --secondary: #90b4ce;
+  --tertiary: #ef4565;
+}
+
+.btn--solid-primary,
+.btn--solid-secondary,
+.btn--solid-tertiary,
+.btn--clear-primary:hover,
+.btn--clear-secondary:hover,
+.btn--clear-tertiary:hover {
+  color: #232946;
+}
+
+.navbar,
+.footer {
+  background: var(--background);
+} */
+
+/* https://www.happyhues.co/palettes/6 */
+/* :root {
+  --background: #fffffe;
+  --background-variant: #d1d1e9;
+  --text-color-primary: #2b2c34;
+  --text-color-secondary: #2b2c34;
+  --primary: #6246ea;
+  --secondary: #d1d1e9;
+  --tertiary: #e45858;
+}
+
+.btn--solid-primary,
+.btn--solid-secondary,
+.btn--solid-tertiary,
+.btn--clear-primary:hover,
+.btn--clear-secondary:hover,
+.btn--clear-tertiary:hover {
+  color: #fffffe;
+}
+
+.navbar,
+.footer {
+  background: var(--background);
+} */
+
+.tailwind-link {
+  border-bottom: 1px solid #06b6d4;
+}
+
+.tailwind-link:hover {
+  color: #06b6d4;
+}
+
+.materialize-link {
+  border-bottom: 1px solid #ee6e73;
+}
+
+.materialize-link:hover {
+  color: #ee6e73;
+}
+
+.bootstrap-link {
+  border-bottom: 1px solid #7952b3;
+}
+
+.bootstrap-link:hover {
+  color: #7952b3;
+}
+
+.googlefonts-link {
+  border-bottom: 1px solid #94a1b2;
+}
+
+.googlefonts-link:hover {
+  color: #94a1b2;
+}
+
+.prism-link {
+  border-bottom: 1px solid #ffffff;
+}
+
+.prism-link:hover {
+  color: #ffffff;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.pulse-centered {
+  width: 100%;
+}

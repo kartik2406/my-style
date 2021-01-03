@@ -1,0 +1,23 @@
+/* Card */
+.card {
+  background: var(--background-variant);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.card .card__header {
+  font-size: 1.5rem;
+  color: var(--text-color-primary);
+}
+
+.card .card__body {
+  margin-top: 10px;
+}
+
+.card .card__footer {
+  margin-top: 20px;
+  display: flex;
+  gap: 5px;
+}

@@ -1,0 +1,22 @@
+/* Theme colors, variables */
+:root {
+  --background: #16161a;
+  --background-variant: #242629;
+  --text-color-primary: #fffffe;
+  --text-color-secondary: #94a1b2;
+  --primary: #7f5af0;
+  --secondary: #72757e;
+  --tertiary: #2cb67d;
+  --progress-bar-background: rgba(44, 182, 125, 0.5);
+  --progress-bar-status: var(--tertiary);
+  --base-font-family: "Nunito", sans-serif;
+  --base-font-size: 18px;
+  --header-height: 40px;
+  --container-top-margin: 40px;
+  --container-padding: 2%;
+  --container-centered-padding: 10%;
+  --content-main-size: 80%;
+  --content-aside-size: 20%;
+  --footer-height: 100px;
+  --footer-margin: 200px;
+}

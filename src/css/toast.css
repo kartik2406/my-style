@@ -1,0 +1,49 @@
+/* Toast, alerts */
+/* Right aligned by default */
+.disguised-toast {
+  position: fixed;
+  font-size: 1.4rem;
+  top: calc(var(--header-height) + var(--container-top-margin));
+  right: 20px;
+  /* width: 30vw;
+  height: 6vw; */
+  background: var(--background-variant);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: var(--toast-level);
+  animation: toastFromRight 1s;
+}
+
+.disguised-toast .disguised-toast__actions {
+  font-size: 1rem;
+  display: flex;
+  align-self: flex-end;
+}
+
+@keyframes toastFromRight {
+  from {
+    right: -100px;
+  }
+  to {
+    right: 20px;
+  }
+}
+
+/* TODO: Toast align otpions, currently toast is only right justified, add positioning options
+.disguised-toast.disguised-toast__right {
+  right: 20px;
+}
+
+.disguised-toast.disguised-toast__top {
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.disguised-toast.disguised-toast__bottom {
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */

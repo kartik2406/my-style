@@ -1,0 +1,42 @@
+@import "./resets.css";
+@import "./helpers.css";
+@import "./themes/default.css";
+@import "./themes/light.css";
+@import "./navbar.css";
+@import "./content.css";
+@import "./heading.css";
+@import "./button.css";
+@import "./link.css";
+@import "./card.css";
+@import "./list.css";
+@import "./form.css";
+@import "./toast.css";
+@import "./progress-bar.css";
+@import "./footer.css";
+/* All the magic */
+body {
+  background: var(--background);
+  color: var(--text-color-secondary);
+  font-size: var(--base-font-size);
+  font-family: var(--base-font-family);
+  overflow-x: hidden;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0;
+  height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+.sub-text {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}

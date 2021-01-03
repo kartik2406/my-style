@@ -1,0 +1,40 @@
+/* Links */
+.link {
+  color: var(--text-color-primary);
+  /* opacity: 0.8; */
+  cursor: pointer;
+}
+.link.link--active,
+.link:hover {
+  transition: 0.2s;
+  opacity: 1;
+  color: var(--primary);
+  /* pointer-events: none; */
+}
+
+.link.link--active.link--secondary,
+.link.link--secondary:hover {
+  color: var(--secondary);
+}
+
+.link.link--active.link--tertiary,
+.link.link--tertiary:hover {
+  color: var(--tertiary);
+}
+
+.link:not(.link--active):hover {
+  transition: 0.2s;
+  opacity: 0.8;
+}
+
+.link--underline {
+  border-bottom: 1px solid var(--primary);
+}
+
+.link.link--secondary.link--underline {
+  border-bottom: 1px solid var(--secondary);
+}
+
+.link.link--tertiary.link--underline {
+  border-bottom: 1px solid var(--tertiary);
+}

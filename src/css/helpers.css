@@ -1,0 +1,32 @@
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Accent color classes */
+.primary {
+  color: var(--primary);
+}
+.secondary {
+  color: var(--secondary);
+}
+.tertiary {
+  color: var(--tertiary);
+}
+
+/* Accent backgrounds */
+.background-primary {
+  background: var(--primary);
+  color: var(--text-color-primary);
+}
+
+.background-secondary {
+  background: var(--secondary);
+  color: var(--text-color-primary);
+}
+
+.background-tertiary {
+  background: var(--tertiary);
+  color: var(--text-color-primary);
+}

@@ -1,0 +1,92 @@
+/* Button styles */
+/* Basic flat buttons */
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--text-color-primary);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.btn > i {
+  font-size: inherit;
+}
+
+.btn--primary {
+  color: var(--primary);
+}
+
+.btn--secondary {
+  color: var(--secondary);
+}
+
+.btn--tertiary {
+  color: var(--tertiary);
+}
+
+/* Solid buttons */
+.btn--solid-primary {
+  background: var(--primary);
+}
+.btn--solid-secondary {
+  background: var(--secondary);
+}
+.btn--solid-tertiary {
+  background: var(--tertiary);
+}
+
+/* Clear buttons */
+.btn--clear-primary {
+  border: 1px solid var(--primary);
+}
+.btn--clear-secondary {
+  border: 1px solid var(--secondary);
+}
+.btn--clear-tertiary {
+  border: 1px solid var(--tertiary);
+}
+
+.btn--clear-primary:hover {
+  background: var(--primary);
+}
+
+.btn--clear-secondary:hover {
+  background: var(--secondary);
+}
+.btn--clear-tertiary:hover {
+  background: var(--tertiary);
+}
+/* Button with icons work with all the above buttons, just add the icon within the button element*/
+
+/* Button only for icons */
+.btn--circle {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* Button with rounded corners */
+.btn--rounded {
+  border-radius: 50px;
+}
+.btn--large {
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+/* Button states */
+.btn:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+.btn--disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.btn--disabled:hover {
+  transform: none;
+}

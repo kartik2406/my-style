@@ -1,0 +1,32 @@
+/* CSS resets */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: var(--text-color-primary);
+}
+a:visited {
+  color: var(--text-color-primary);
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+button {
+  background: none;
+  border: none;
+  color: var(--text-color-primary);
+}
+input {
+  background: none;
+  border: none;
+  outline: none;
+}

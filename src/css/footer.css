@@ -1,0 +1,14 @@
+.footer {
+  margin-top: var(--footer-margin);
+  /* margin-top: auto; */
+  background: var(--background-variant);
+  height: var(--footer-height);
+  color: var(--text-color-primary);
+  padding: 10px;
+}
+
+.footer.footer--fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

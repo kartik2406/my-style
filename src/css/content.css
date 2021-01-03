@@ -1,0 +1,31 @@
+/* Block that houses sites content */
+.container {
+  margin-top: var(--container-top-margin);
+  padding: 0 var(--container-padding) 0 var(--container-padding);
+}
+
+.container.container--centered {
+  padding: 0 var(--container-centered-padding) 0
+    var(--container-centered-padding);
+}
+
+/* Content main and aside for side content */
+.content {
+  display: flex;
+  gap: 10px;
+}
+
+.content--inverse {
+  flex-direction: row-reverse;
+}
+.content .content__main {
+  flex-basis: var(--content-main-size);
+}
+
+.content .content__aside {
+  flex-basis: var(--content-aside-size);
+}
+
+P {
+  line-height: 1.6;
+}

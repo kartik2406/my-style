@@ -1,0 +1,20 @@
+{
+  "name": "my-style",
+  "version": "1.0.0",
+  "description": "Give your websties your own style using this framework.",
+  "main": "src/css/index.css",
+  "author": "Kartik Malik",
+  "license": "MIT",
+  "scripts": {
+    "build": "",
+    "build-prefix": "postcss --use autoprefixer --map --output ./css/src/index.css ./css/index.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss-cli": "^8.3.1"
+  },
+  "keywords": [
+    "css",
+    "css-framework"
+  ]
+}
