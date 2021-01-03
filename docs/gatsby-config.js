@@ -6,6 +6,9 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `My Style`,
+  },
   plugins: [
     {
       resolve: "gatsby-plugin-google-fonts",

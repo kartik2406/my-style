@@ -11,10 +11,8 @@ export default function Toast() {
   let [toastState, setToastState] = useState(false)
   let [disguisedToast, setDisguisedToastState] = useState(false)
   const onShowToast = setState => {
-    console.log(setState)
     setState(true)
     let interValID = setInterval(() => {
-      console.log("Interval")
       setState(false)
       clearInterval(interValID)
     }, 4000)

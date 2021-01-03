@@ -17,7 +17,6 @@ export default function Layout({ children }) {
     setTheme()
   }, [])
   const isPartiallyActive = props => {
-    console.log(props)
     return props.location.href.includes("/docs")
       ? { className: "navbar__link link  link--active" }
       : { className: "navbar__link link" }
@@ -54,7 +53,12 @@ export default function Layout({ children }) {
       <footer className="footer centered">
         <span>
           Designed by &nbsp;
-          <a className="link  link--tertiary link--underline">Kartik Malik </a>
+          <a
+            className="link  link--tertiary link--underline"
+            href="https://github.com/kartik2406"
+          >
+            Kartik Malik{" "}
+          </a>
         </span>
         <span> Current version: 1.0.0</span>
         <span>License: MIT</span>

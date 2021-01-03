@@ -190,7 +190,13 @@ hr {
 .googlefonts-link:hover {
   color: #94a1b2;
 }
+.googleicons-link {
+  border-bottom: 1px solid #03a9f4;
+}
 
+.googleicons-link:hover {
+  color: #03a9f4;
+}
 .prism-link {
   border-bottom: 1px solid #ffffff;
 }
@@ -201,6 +207,10 @@ hr {
 
 .width-80 {
   width: 80%;
+}
+
+.width-80 .doc-section {
+  margin-top: 1rem;
 }
 
 .pulse-centered {

@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 
 export default function PageSection({ links }) {
   const isPartiallyActive = (props, id) => {
-    console.log(props.href, id)
     return props.location.href.includes(id)
       ? { className: "link link--tertiary link--active" }
       : { className: "link link--tertiary" }
@@ -23,11 +22,9 @@ export default function PageSection({ links }) {
     ).filter(section => section.id && !section.id.startsWith("__"))
     if (links.length > 1)
       window.onscroll = function () {
-        console.log("Scrolled")
         let currentlyInView
         for (let i = 0; i < sections.length; i++) {
           let section = sections[i]
-          // console.log("section", section)
           let boundingY = section.getBoundingClientRect().y
           // If bounding Y is negative that means the section is currently not in view.
           if (boundingY > 0 && boundingY <= window.innerHeight) {

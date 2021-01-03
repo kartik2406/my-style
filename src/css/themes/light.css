@@ -6,6 +6,8 @@
   --primary: #3da9fc;
   --secondary: #90b4ce;
   --tertiary: #ef4565;
+  --progress-bar-status: var(--tertiary);
+  --progress-bar-background: #fac7d1;
 }
 
 .light-theme .btn--solid-primary,

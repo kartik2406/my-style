@@ -11,7 +11,7 @@ const SECTIONS = [
     id: "progressStatus",
     title: "Progress status",
     description:
-      "Pass the status % of the task being performed as width, as the task progress the progress bar will keep filling.",
+      "Pass the % status of the task being performed as width, as the task progress the progress bar will keep filling.",
     displayComponents: (
       <React.Fragment>
         <div class="progress-bar">
