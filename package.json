@@ -1,6 +1,6 @@
 {
   "name": "my-style-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Give your websties your own style using this framework.",
   "main": "src/css/index.css",
   "author": "Kartik Malik",
