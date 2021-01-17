@@ -63,10 +63,10 @@ export default function Layout({ children }) {
             rel="noreferrer"
             target="_blank"
           >
-            Kartik Malik{" "}
+            Kartik Malik
           </a>
         </span>
-        <span> Current version: 1.0.0</span>
+        <span> Current version: 1.0.3</span>
         <span>License: MIT</span>
       </footer>
     </React.Fragment>
