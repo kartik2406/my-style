@@ -20,6 +20,7 @@ const RELEASE_DETAILS = [
         <ul className="list">
           <li className="list__header">New Components</li>
           <li className="list__item">Links: Animated links</li>
+          <li className="list__item">Form: Select input </li>
         </ul>
       </ul>
     ),

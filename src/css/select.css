@@ -1,0 +1,42 @@
+.select-input {
+  position: relative;
+  /* cursor: pointer; */
+}
+.select-input select {
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  background: var(--background-variant);
+  color: var(--text-color-primary);
+  border: 0;
+}
+/* This covers the existing dropdown button */
+.select-input::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  background: var(--background-variant);
+  height: 100%;
+  width: 2.5rem;
+  pointer-events: none;
+}
+/* Arrow icon */
+.select-input::after {
+  --size: 0.5rem;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: block;
+  background: var(--background);
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  transform: translate(-50%, -50%);
+  border-left: var(--size) solid var(--background-variant);
+  border-right: var(--size) solid var(--background-variant);
+  border-top: var(--size) solid var(--text-color-primary);
+  pointer-events: none;
+}

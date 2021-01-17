@@ -33,7 +33,7 @@ export default function ComponentDocPage({ pageInfo, sections, children }) {
                       onClick={() => copyCode(section.markup)}
                       title="Copy"
                     >
-                      <i class="material-icons">content_copy</i>
+                      <i className="material-icons">content_copy</i>
                     </button>
                     <code className="language-markup">{section.markup}</code>
                   </pre>

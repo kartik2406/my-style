@@ -6,7 +6,8 @@ const PAGE_INFO = {
 }
 const SECTIONS = [
   {
-    id: "__form",
+    id: "formInputs",
+    title: "Form inputs",
     description:
       "Style inputs and labels to the site theme. Label, input gets highlighted on focus.",
     displayComponents: (
@@ -33,6 +34,33 @@ const SECTIONS = [
     <label for="email">Email</label>
   </div>
 </form>
+`,
+  },
+  {
+    id: "selectDropdown",
+    title: "Select input",
+    description:
+      "You can also style the select input to look a bit more appealing. The appearance of the select input will match your theme. Note that the appearance of the dropdown itself cannot be controlled by CSS yet, only background and color can be changed. For select input you do not need form class as parent",
+    displayComponents: (
+      <React.Fragment>
+        <div className="select-input">
+          <select>
+            <option>Lorem</option>
+            <option>ipsum</option>
+            <option>dolor</option>
+            <option>sit</option>
+          </select>
+        </div>
+      </React.Fragment>
+    ),
+    markup: `<div class="select-input">
+  <select>
+    <option>Lorem</option>
+    <option>ipsum</option>
+    <option>dolor</option>
+    <option>sit</option>
+  </select>
+</div>
 `,
   },
 ]
