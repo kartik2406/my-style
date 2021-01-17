@@ -33,6 +33,9 @@ let themeVars = `.my-theme {
   --header-height: 40px;
   /* Margin for the main container*/
   --container-top-margin: 40px;
+  /* These two properties are used to set the width, min of them would be used */
+  --container-size-percent: 90%;
+  --container-size-relative: 72rem;
   /* Overall container padding*/
   --container-padding: 2%;
   /* Left and right padding for cented container*/

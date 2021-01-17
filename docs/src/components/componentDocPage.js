@@ -3,6 +3,13 @@ import DocPage from "./docPage"
 import PageSection from "./pageSection"
 
 export default function ComponentDocPage({ pageInfo, sections, children }) {
+  const copyCode = async code => {
+    try {
+      navigator.clipboard.writeText(code)
+    } catch (err) {
+      console.error(err)
+    }
+  }
   return (
     <DocPage>
       <section className="content__main">
@@ -19,9 +26,18 @@ export default function ComponentDocPage({ pageInfo, sections, children }) {
                 <section className="display-components">
                   {section.displayComponents}
                 </section>
-                <pre>
-                  <code className="language-markup">{section.markup}</code>
-                </pre>
+                <section>
+                  <pre>
+                    <button
+                      className="btn btn--primary float-right copy-btn"
+                      onClick={() => copyCode(section.markup)}
+                      title="Copy"
+                    >
+                      <i class="material-icons">content_copy</i>
+                    </button>
+                    <code className="language-markup">{section.markup}</code>
+                  </pre>
+                </section>
               </section>
             )
           })}

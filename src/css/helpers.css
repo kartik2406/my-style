@@ -30,3 +30,11 @@
   background: var(--tertiary);
   color: var(--text-color-primary);
 }
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}

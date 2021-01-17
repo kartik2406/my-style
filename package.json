@@ -1,6 +1,6 @@
 {
   "name": "my-style-css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Give your websties your own style using this framework.",
   "main": "src/css/index.css",
   "author": "Kartik Malik",
@@ -16,7 +16,7 @@
     "css",
     "css-framework"
   ],
-  "homepage": "https://my-style.netlify.app/",
+  "homepage": "https://mystylecss.netlify.app",
   "repository": {
     "type": "git",
     "url": "https://github.com/kartik2406/my-style"

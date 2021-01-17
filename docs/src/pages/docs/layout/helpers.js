@@ -77,6 +77,30 @@ const SECTIONS = [
 <span class="background-tertiary"> This background is tertiary color
  </span>`,
   },
+  {
+    id: "floats",
+    title: "Floats",
+    description: "Classes to easily position elements to left or right",
+    displayComponents: (
+      <React.Fragment>
+        <section style={{ width: "100%" }}>
+          <span className="float-left">Text on Left side</span>
+        </section>
+      </React.Fragment>
+    ),
+    markup: ` <span class="float-left">Text on Left side</span>`,
+  },
+  {
+    id: "__floats",
+    displayComponents: (
+      <React.Fragment>
+        <section style={{ width: "100%" }}>
+          <span className="float-right">Text on Right side</span>
+        </section>
+      </React.Fragment>
+    ),
+    markup: `<span class="float-right">Text on Right side</span>`,
+  },
 ]
 export default function Helpers() {
   return <ComponentDocPage pageInfo={PAGE_INFO} sections={SECTIONS} />

@@ -12,9 +12,16 @@ let omportViaCSS = `/* Minified file */
 @import "./node_modules/my-style/src/css/index.css";`
 
 let googleFontImportHTML = `<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">`
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+ rel="stylesheet">`
 
 let googleFontImportCSS = `@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');`
+
+let googleIconImportHTML = `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" 
+rel="stylesheet"/>
+`
+
+let googleIconImportCSS = `@import url("https://fonts.googleapis.com/icon?family=Material+Icons");`
 export default function Setup() {
   return (
     <DocPage>
@@ -32,7 +39,16 @@ export default function Setup() {
             >
               download the source files
             </a>
-            &nbsp; from the github repo or install the npm package.
+            &nbsp; from the github repo or install the&nbsp;
+            <a
+              className="link npm-link"
+              href="https://www.npmjs.com/package/my-style-css"
+              rel="noreferrer"
+              target="_blank"
+            >
+              npm package
+            </a>
+            .
           </p>
           <pre>
             <code className="language-javascript">npm i my-style-css</code>
@@ -71,11 +87,11 @@ export default function Setup() {
           <h5> Adding Google icons </h5>
           <p> Importing via HTML</p>
           <pre>
-            <code className="language-markup">{googleFontImportHTML}</code>
+            <code className="language-markup">{googleIconImportHTML}</code>
           </pre>
           <p> Importing via CSS </p>
           <pre>
-            <code className="language-css">{googleFontImportCSS}</code>
+            <code className="language-css">{googleIconImportCSS}</code>
           </pre>
           Visit &nbsp;
           <a

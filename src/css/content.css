@@ -2,6 +2,8 @@
 .container {
   margin-top: var(--container-top-margin);
   padding: 0 var(--container-padding) 0 var(--container-padding);
+  margin-inline: auto;
+  width: min(var(--container-size-percent), var(--container-size-relative));
 }
 
 .container.container--centered {

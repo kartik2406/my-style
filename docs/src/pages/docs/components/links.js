@@ -40,6 +40,30 @@ const SECTIONS = [
 <a class="link link--tertiary link--underline">Visit</a>`,
   },
   {
+    id: "animatedLinks",
+    title: "Animated links",
+    description:
+      "This style add an underline to the link on hover and removes it, it has a cool animation which makes the underline move when hovered on and off. The effects can be from left to right, from center, from right to left.",
+    displayComponents: (
+      <React.Fragment>
+        <a className="link link--primary link--animated">Visit</a>
+        <a className="link link--secondary link--animated link--animated--centerd">
+          Visit
+        </a>
+        <a className="link link--tertiary link--animated link--animated--right">
+          Visit
+        </a>
+      </React.Fragment>
+    ),
+    markup: `<a class="link link--primary link--animated">Visit</a>
+<a class="link link--secondary link--animated link--animated--centerd">
+  Visit
+</a>
+<a class="link link--tertiary link--animated link--animated--right">
+  Visit
+</a>`,
+  },
+  {
     id: "buttonLinks",
     title: "Button links",
     description:

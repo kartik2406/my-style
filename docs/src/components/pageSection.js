@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default function PageSection({ links }) {
   const isPartiallyActive = (props, id) => {
-    return props.location.href && props.location.href.includes(id)
+    return props.location.href && props.location.href.includes(`#${id}`)
       ? { className: "link link--tertiary link--active" }
       : { className: "link link--tertiary" }
   }
@@ -50,7 +50,7 @@ export default function PageSection({ links }) {
       <li className="list__item" key={index}>
         <Link
           to={`#${link.id}`}
-          className="1 link link--tertiary"
+          className="link link--tertiary"
           activeClassName="link--active"
           data-id={link.id}
           getProps={props => isPartiallyActive(props, link.id)}

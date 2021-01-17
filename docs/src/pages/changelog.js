@@ -4,6 +4,27 @@ import Layout from "../components/layout"
 
 const RELEASE_DETAILS = [
   {
+    version: "1.0.3",
+    releaseDate: "17th January 2021",
+    releaseSummary:
+      "Animated links, responsive style to container, select input styling, bug fixes.",
+    changes: (
+      <ul className="list">
+        <li className="list__item">
+          Container class width is configurable and doesn't cover the whole
+          width on larger screens
+        </li>
+        <li className="list__item">Float helpers</li>
+        <li className="list__item">Documentation fixes</li>
+        <li className="list__item">Copy to clipboard button</li>
+        <ul className="list">
+          <li className="list__header">New Components</li>
+          <li className="list__item">Links: Animated links</li>
+        </ul>
+      </ul>
+    ),
+  },
+  {
     version: "1.0.1 - 1.0.2",
     releaseDate: "4th January 2021",
     releaseSummary: "Some bug fixes, document fixes",
@@ -43,7 +64,7 @@ const RELEASE_DETAILS = [
 export default function ChangeLog() {
   return (
     <Layout>
-      <section className="container container--centered">
+      <section className="container">
         <h2> Changelog </h2>
         <ul className="list">
           {RELEASE_DETAILS.map(details => (

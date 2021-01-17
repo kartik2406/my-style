@@ -13,6 +13,9 @@
   --base-font-size: 18px;
   --header-height: 40px;
   --container-top-margin: 40px;
+  /* These two properties are used to set the width, min of them would be used */
+  --container-size-percent: 90%;
+  --container-size-relative: 72rem;
   --container-padding: 2%;
   --container-centered-padding: 10%;
   --content-main-size: 80%;

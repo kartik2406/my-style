@@ -24,7 +24,7 @@
 
 .link:not(.link--active):hover {
   transition: 0.2s;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .link--underline {
@@ -37,4 +37,55 @@
 
 .link.link--tertiary.link--underline {
   border-bottom: 1px solid var(--tertiary);
+}
+
+.link.link--animated {
+  /* color: var(--primary); */
+  position: relative;
+}
+
+/* Left to right animation */
+.link.link--animated::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.2s ease-in;
+}
+.link.link--animated:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Centered animation */
+.link.link--animated.link--animated--centerd::after {
+  transform-origin: center;
+}
+.link.link--animated.link--animated--centerd:hover:after {
+  transform-origin: center;
+}
+
+/* Right to left  */
+.link.link--animated.link--animated--right::after {
+  transform-origin: left;
+}
+.link.link--animated.link--animated--right:hover:after {
+  transform-origin: right;
+}
+
+.link.link--animated.link--primary {
+  color: var(--primary);
+}
+
+.link.link--animated.link--secondary {
+  color: var(--secondary);
+}
+
+.link.link--animated.link--tertiary {
+  color: var(--tertiary);
 }
